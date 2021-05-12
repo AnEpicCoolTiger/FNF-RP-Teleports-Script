@@ -30,25 +30,24 @@ local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.CoreGui
 
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(110, 141, 255)
 main.BorderColor3 = Color3.fromRGB(0, 0, 0)
-main.Position = UDim2.new(0.0473958328, 0, 0.364814818, 0)
+main.Position = UDim2.new(0.398958325, 0, 0.349059492, 0)
 main.Size = UDim2.new(0, 477, 0, 362)
 main.Visible = false
 main.Active = true
 main.Draggable = true
 game:GetService("StarterGui").ResetPlayerGuiOnSpawn = false
 
-
 TextLabel.Parent = main
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.Size = UDim2.new(0, 477, 0, 43)
 TextLabel.Font = Enum.Font.SourceSansSemibold
-TextLabel.Text = "Friday Night Funk RP Teleports"
+TextLabel.Text = "Friday Night Funk RP Teleports "
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
 
@@ -64,8 +63,8 @@ Closebutton.TextScaled = true
 Closebutton.TextSize = 14.000
 Closebutton.TextWrapped = true
 Closebutton.MouseButton1Down:connect(function()
-openmain.Visible = true
-main.Visible = false
+	openmain.Visible = true
+	main.Visible = false
 end)
 
 Lobbybutton.Name = "Lobbybutton"
@@ -78,7 +77,7 @@ Lobbybutton.Text = "Lobby"
 Lobbybutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 Lobbybutton.TextSize = 14.000
 Lobbybutton.MouseButton1Down:connect(function()
-     game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(99, 478, -838)
+	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(99, 478, -838)
 end)
 
 Morphsbutton.Name = "Morphsbutton"
@@ -91,9 +90,8 @@ Morphsbutton.Text = "Morphs"
 Morphsbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 Morphsbutton.TextSize = 14.000
 Morphsbutton.MouseButton1Down:connect(function()
-     game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(198, 478, -843)
+	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(198, 478, -843)
 end)
-
 
 Badgesbutton.Name = "Badgesbutton"
 Badgesbutton.Parent = main
@@ -105,9 +103,8 @@ Badgesbutton.Text = "Badges"
 Badgesbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 Badgesbutton.TextSize = 14.000
 Badgesbutton.MouseButton1Down:connect(function()
-     game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(235, 478, -791)
+	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(235, 478, -791)
 end)
-
 
 Passesbutton.Name = "Passesbutton"
 Passesbutton.Parent = main
@@ -119,9 +116,8 @@ Passesbutton.Text = "Gamepasses"
 Passesbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 Passesbutton.TextSize = 14.000
 Passesbutton.MouseButton1Down:connect(function()
-    game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(102, 478, -916)
+	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(102, 478, -916)
 end)
-
 
 Week1button.Name = "Week1button"
 Week1button.Parent = main
@@ -133,9 +129,8 @@ Week1button.Text = "Week 1"
 Week1button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Week1button.TextSize = 14.000
 Week1button.MouseButton1Down:connect(function()
-     game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(-15, 4, -107)
+	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(-15, 4, -107)
 end)
-
 
 Week2button.Name = "Week2button"
 Week2button.Parent = main
@@ -150,7 +145,6 @@ Week2button.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(1148, 345, -134)
 end)
 
-
 Week3button.Name = "Week3button"
 Week3button.Parent = main
 Week3button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -163,7 +157,6 @@ Week3button.TextSize = 14.000
 Week3button.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(453, 948, 2632)
 end)
-
 
 Week4button.Name = "Week4button"
 Week4button.Parent = main
@@ -204,7 +197,6 @@ Week6button.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(-10384, 3650, 7105)
 end)
 
-
 Week7button.Name = "Week7button"
 Week7button.Parent = main
 Week7button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -217,7 +209,6 @@ Week7button.TextSize = 14.000
 Week7button.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(-7737, 6474, -3742)
 end)
-
 
 Dokibutton.Name = "Dokibutton"
 Dokibutton.Parent = main
@@ -258,7 +249,6 @@ Midfightbutton.MouseButton1Down:connect(function()
 	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(4347, 1869, -1689)
 end)
 
-
 Zardybutton.Name = "Zardybutton"
 Zardybutton.Parent = main
 Zardybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -275,7 +265,7 @@ end)
 openmain.Name = "openmain"
 openmain.Parent = ScreenGui
 openmain.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
-openmain.Position = UDim2.new(0.0234375, 0, 0.274074078, 0)
+openmain.Position = UDim2.new(0, 0, 0.381581008, 0)
 openmain.Size = UDim2.new(0, 127, 0, 56)
 openmain.Visible = false
 
@@ -283,6 +273,7 @@ openbutton.Name = "openbutton"
 openbutton.Parent = openmain
 openbutton.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
 openbutton.Size = UDim2.new(0, 127, 0, 56)
+openbutton.Visible = true
 openbutton.Font = Enum.Font.TitilliumWeb
 openbutton.Text = "Open"
 openbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -290,16 +281,15 @@ openbutton.TextScaled = true
 openbutton.TextSize = 14.000
 openbutton.TextWrapped = true
 openbutton.MouseButton1Down:connect(function()
-openmain.Visible = false
-main.Visible = true
+	openmain.Visible = false
+	main.Visible = true
 end)
 
 Disclaimer.Name = "Disclaimer"
 Disclaimer.Parent = ScreenGui
 Disclaimer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Disclaimer.Position = UDim2.new(0.159895837, 0, 0.118518516, 0)
+Disclaimer.Position = UDim2.new(0.361458361, 0, 0.245487943, 0)
 Disclaimer.Size = UDim2.new(0, 675, 0, 523)
-Disclaimer.Active = true
 
 Agreebutton.Name = "Agreebutton"
 Agreebutton.Parent = Disclaimer
@@ -312,18 +302,16 @@ Agreebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 Agreebutton.TextScaled = true
 Agreebutton.TextSize = 14.000
 Agreebutton.TextWrapped = true
-Agreebutton.Active = true
 Agreebutton.MouseButton1Down:connect(function()
-Disclaimer.Visible = false 
-openmain.Visible = true
+	Disclaimer.Visible = false 
+	openmain.Visible = true
 end)
 
 TextLabel_2.Parent = Disclaimer
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(29, 255, 29)
 TextLabel_2.Size = UDim2.new(0, 675, 0, 234)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "To respect the developers, I will NOT be adding teleports to badges/hidden morphs. Click I agree to continue using this script"
+TextLabel_2.Text = "To respect the developers, I will NOT be adding teleports to badges/hidden morphs. Click I agree to continue using this menu"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextSize = 50.000
 TextLabel_2.TextWrapped = true
-TextLabel_2.Active = true
