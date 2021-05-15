@@ -129,7 +129,7 @@ Week1button.Text = "Week 1"
 Week1button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Week1button.TextSize = 14.000
 Week1button.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(-15, 4, -107)
+	game.Players.LocalPlayer.Character.Humanoid.Torso.CFrame = CFrame.new(-16, 45, -164)
 end)
 
 Week2button.Name = "Week2button"
